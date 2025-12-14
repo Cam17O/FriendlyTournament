@@ -17,11 +17,13 @@
     "confirm": "Confirmer",
     "yes": "Oui",
     "no": "Non",
-    "add": "Ajouter"
+    "add": "Ajouter",
+    "create": "Créer"
   },
   "nav": {
-    "tournamentPlatform": "Tournois Amicaux",
+    "tournamentPlatform": "Friendly Tournament",
     "createTournament": "Créer un tournoi",
+    "groups": "Groupes",
     "friends": "Amis",
     "login": "Connexion",
     "register": "Inscription",
@@ -29,7 +31,7 @@
     "profile": "Profil"
   },
   "home": {
-    "welcome": "BIENVENUE SUR TOURNOIS AMICAUX",
+    "welcome": "BIENVENUE SUR Friendly Tournament",
     "subtitle": "Créez et participez à des tournois amicaux sur vos jeux préférés",
     "recentTournaments": "TOURNOIS RÉCENTS",
     "noTournaments": "Aucun tournoi pour le moment",
@@ -210,6 +212,46 @@
     "errorSending": "Erreur lors de l'envoi de la demande",
     "errorAccepting": "Erreur lors de l'acceptation",
     "errorRejecting": "Erreur lors du refus"
+  },
+  "groups": {
+    "title": "Groupes",
+    "createGroup": "Créer un groupe",
+    "groupName": "Nom du groupe",
+    "description": "Description",
+    "noGroups": "Aucun groupe pour le moment. Créez votre premier groupe !",
+    "members": "membres",
+    "games": "jeux",
+    "invite": "Inviter",
+    "inviteFriend": "Inviter un ami",
+    "selectFriend": "Sélectionner un ami",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "leave": "Quitter le groupe",
+    "confirmLeave": "Êtes-vous sûr de vouloir quitter ce groupe ?",
+    "admin": "Admin",
+    "status": {
+      "pending": "En attente",
+      "accepted": "Membre",
+      "declined": "Refusé"
+    },
+    "addGame": "Ajouter un jeu",
+    "selectGame": "Sélectionner un jeu",
+    "removeGame": "Retirer le jeu",
+    "confirmRemoveGame": "Êtes-vous sûr de vouloir retirer ce jeu du groupe ?",
+    "noGames": "Aucun jeu dans ce groupe",
+    "leaderboard": "Classement",
+    "filterByGame": "Filtrer par jeu",
+    "allGames": "Tous les jeux",
+    "rank": "Rang",
+    "player": "Joueur",
+    "game": "Jeu",
+    "username": "Pseudo",
+    "elo": "ELO",
+    "rankLabel": "Rang",
+    "noLeaderboard": "Aucun joueur trouvé pour le jeu sélectionné",
+    "notFound": "Groupe non trouvé",
+    "mustBeMember": "Vous devez être membre pour voir le classement",
+    "create": "Créer"
   },
   "errors": {
     "generic": "Une erreur est survenue",

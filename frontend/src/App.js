@@ -8,6 +8,8 @@ import Profile from './pages/Profile';
 import CreateTournament from './pages/CreateTournament';
 import TournamentDetail from './pages/TournamentDetail';
 import Friends from './pages/Friends';
+import Groups from './pages/Groups';
+import GroupDetail from './pages/GroupDetail';
 import Home from './pages/Home';
 import AuthCallback from './pages/auth/Callback';
 import LinkGame from './pages/LinkGame';
@@ -59,6 +61,22 @@ function App() {
             element={
               <PrivateRoute>
                 <Friends />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/groups"
+            element={
+              <PrivateRoute>
+                <Groups />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/groups/:id"
+            element={
+              <PrivateRoute>
+                <GroupDetail />
               </PrivateRoute>
             }
           />

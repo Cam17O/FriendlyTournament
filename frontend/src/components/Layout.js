@@ -21,6 +21,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
 import PeopleIcon from '@mui/icons-material/People';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import GroupIcon from '@mui/icons-material/Group';
 import LogoutIcon from '@mui/icons-material/Logout';
 import LoginIcon from '@mui/icons-material/Login';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
@@ -42,6 +43,7 @@ const Layout = ({ children }) => {
     ? [
         { text: t('nav.tournamentPlatform'), icon: <HomeIcon />, path: '/' },
         { text: t('nav.createTournament'), icon: <EmojiEventsIcon />, path: '/tournaments/create' },
+        { text: t('nav.groups'), icon: <GroupIcon />, path: '/groups' },
         { text: t('nav.friends'), icon: <PeopleIcon />, path: '/friends' },
         { text: t('nav.profile'), icon: <PersonIcon />, path: '/profile' },
       ]
